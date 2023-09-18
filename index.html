@@ -9,6 +9,12 @@
 		<title>Document</title>
 	</head>
 	<body>
+		<a
+			class="skip-to-content-link"
+			href="#main"
+		>
+			Skip to content
+		</a>
 		<header>
 			<img
 				src="images/logo.png"
@@ -25,7 +31,7 @@
 				</ul>
 			</nav>
 		</header>
-		<main>
+		<main id="main">
 			<section>
 				<h2>Majorca</h2>
 				<p>
@@ -431,16 +437,19 @@
 						<input
 							id="emailPreferred"
 							type="radio"
+							name="preferredContactMethod"
 						/>
 						<label for="emailPreferred">Email</label>
 						<input
 							id="textPreferred"
 							type="radio"
+							name="preferredContactMethod"
 						/>
 						<label for="textPreferred">Text</label>
 						<input
 							id="phonePreferred"
 							type="radio"
+							name="preferredContactMethod"
 						/>
 						<label for="phonePreferred">Phone</label>
 					</fieldset>
