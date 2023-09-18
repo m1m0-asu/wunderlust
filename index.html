@@ -433,12 +433,50 @@
 							type="radio"
 						/>
 						<label for="emailPreferred">Email</label>
+						<input
+							id="textPreferred"
+							type="radio"
+						/>
+						<label for="textPreferred">Text</label>
+						<input
+							id="phonePreferred"
+							type="radio"
+						/>
+						<label for="phonePreferred">Phone</label>
 					</fieldset>
-					First Name (Enter first name) Last Name (Enter last name) Contact
-					Method (Email, Text, Phone) Email Address (Enter Email) Phone Number
-					(Enter telephone number) Destination (Barcelona, Granada, Ibiza,
-					Madrid, Majorca, Seville, Tenerife, Valencia) Travel Time (Fall,
-					Winter, Spring, Summer, Flexible)
+					<label for="emailAddress">Email Address</label>
+					<input
+						id="emailAddress"
+						type="text"
+						placeholder="Enter Email"
+					/>
+					<label for="destination">Destination</label>
+					<select
+						name="Destination"
+						id="destination"
+					>
+						<option value="">Select destination</option>
+						<option value="Barcelona">Barcelona</option>
+						<option value="Granada">Granada</option>
+						<option value="Ibiza">Ibiza</option>
+						<option value="Madrid">Madrid</option>
+						<option value="Majorca">Majorca</option>
+						<option value="Seville">Seville</option>
+						<option value="Tenerife">Tenerife</option>
+						<option value="Valencia">Valencia</option>
+					</select>
+					<label for="travelTime">Travel Time</label>
+					<select
+						name="travelTime"
+						id="travelTime"
+					>
+						<option value="">Select travel time</option>
+						<option value="Fall">Fall</option>
+						<option value="Winter">Winter</option>
+						<option value="Spring">Spring</option>
+						<option value="Summer">Summer</option>
+						<option value="Flexible">Flexible</option>
+					</select>
 				</form>
 			</section>
 		</main>
